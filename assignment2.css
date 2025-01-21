@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-right: 20px;
+    list-style-type: none;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+   justify-content: space-between;
+   width: 1160px;
+   height: 62px;
+}
+.name, ul{
+    display: flex;
+}
+.name{
+    width: 221px;
+    height: 62px;
+   justify-content: center;
+   align-items: center;
+}
+.logo{
+    width: 67px;
+    height: 62px;
+}
+.school{
+    width: 141px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 2rem;
+    color: black;
+}
+.menu{
+    width: 387px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    font-weight: semiBold;
+}
+#li1{
+    color: orange;
+    font-size: 1.1rem;
+}
+#li2{
+    color: skyblue;
+    font-size: 1.1rem;
+}
+#li3{
+    color: #05D4DF;
+    font-size: 1.1rem;
+}
+#li4{
+    color: #5D58EF;
+    font-size: 1.1rem;
+}
+.nav-btn{
+    width: 197px;
+    height: 50px;
+    background-color: orange;
+    color: white;
+    padding: 10px 10px;
+    border: 1px solid white;
+    border-radius: 12px;
+    font-weight: semiBold;
+    font-size: 20px;
+}
+/* nav ends here */
+
+/* banner starts */
+  .banner{
+    display: flex;
+    width: 1158px;
+    height: 575px;
+    justify-content: space-between;
+  }
+  .banner-body{
+    margin-top: 100px;
+  }
+  .banner-heading{
+    font-size: 3.2rem;
+    width: 640px;
+    height: 183px;
+  }
+  #empowering{
+    color: orange;
+  }
+  #towards{
+    color: skyblue;
+  }
+  .banner-text{
+    font-size: 1.1rem;
+    color: black;
+    width: 640px;
+    height: 50px;
+  }
+  .banner-button{
+    width: 197px;
+    height: 50px;
+    background-color: black;
+    padding: 10px 10px;
+    border: 1px solid;
+    border-radius: 12px;
+    color: white;
+  }
+  .kid{
+    width: 468px;
+    height: 575px;
+    margin-right: 10px;
+  }
+/* banner ends */
+/* standard curriculum starts */
+.card-header{
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    
+}
+.card-title{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #202020;
+}
+.card-pic{
+    width: 136px;
+    height: 136px;
+}
+.card-text{
+    color: #808080;
+    font-size: 1rem;
+}
+.standard-bottom{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.bottom-angular{
+    background-color: orange;
+    color: white;
+    width: 60px;
+    height: 60px;
+    font-weight: bold;
+    border: 1px solid;
+    border-radius: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+}
+.font-icon{
+    margin: auto;
+}
+/* standard curriculum ends */
