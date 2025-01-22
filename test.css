@@ -1,0 +1,119 @@
+.our-stories{
+    width: 1440px;
+    height: 1018px;
+    background: linear-gradient(to bottom, #FFFFFF, rgba(254, 163, 1, 0.3)), 
+    url('bg.png');
+background-size: cover;
+background-repeat: no-repeat;  
+}
+.stories-title{
+    font-weight: bold;
+    font-size: 2.9rem;
+    text-align: center;
+}
+.stories-card{
+    display: flex;
+    gap: 2rem;
+}
+.story-1-card{
+    width: 540px;
+    height: 630px;
+    border: 1px solid none;
+    border-radius: 16px;
+    background-color: white;
+}
+.story-1-pic{
+    width: 540px;
+    height: 337px;
+}
+.story-text{
+    font-size: 15.34px;
+    font-weight: medium;
+    width: 433px;
+    height: 45px;
+}
+.story-1-btn1{
+    width: 174px;
+    height: 47px;
+    background-color: #3CD8E8;
+    border: 1px solid #3CD8E8;
+    border-radius: 47.9px;
+    color: white;
+    font-weight: medium;
+    font-size: 1rem;
+    margin-top: -50px;
+    margin-left: 50px;
+}
+.rest-stories{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+.story-2-card{
+    width: 290px;
+    height: 301px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 16px;
+}
+.story-2-pic{
+    width: 291px;
+    height: 177px;
+}
+.story-2-btn2{
+  background-color: #95B226;
+  width: 174px;
+    height: 47px;
+    border: 1px solid #95B226;
+    border-radius: 47.9px;
+    color: white;
+    font-weight: medium;
+    font-size: 1rem;
+    margin-top: -50px;
+    margin-left: 50px;
+}
+.story2-title{
+    text-align: center;
+    width: 214px;
+    height: 57px;
+    font-weight: bold;
+    font-size: 15.74px;
+    margin: auto;
+    margin-top: 20px;
+}
+.story-2-btn3{
+    background-color: #5D58F0;
+  width: 174px;
+    height: 47px;
+    border: 1px solid #5D58F0;
+    border-radius: 47.9px;
+    color: white;
+    font-weight: medium;
+    font-size: 1rem;
+    margin-top: -50px;
+    margin-left: 50px;
+}
+.story-2-btn4{
+    background-color: #95B226;
+    width: 174px;
+      height: 47px;
+      border: 1px solid #95B226;
+      border-radius: 47.9px;
+      color: white;
+      font-weight: medium;
+      font-size: 1rem;
+      margin-top: -50px;
+      margin-left: 50px;
+}
+.story-2-btn5{
+    background-color: #95B226;
+    width: 174px;
+      height: 47px;
+      border: 1px solid #95B226;
+      border-radius: 47.9px;
+      color: white;
+      font-weight: medium;
+      font-size: 1rem;
+      margin-top: -50px;
+      margin-left: 50px;
+}
