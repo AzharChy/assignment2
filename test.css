@@ -1,119 +1,96 @@
-.our-stories{
-    width: 1440px;
-    height: 1018px;
-    background: linear-gradient(to bottom, #FFFFFF, rgba(254, 163, 1, 0.3)), 
-    url('bg.png');
-background-size: cover;
-background-repeat: no-repeat;  
+*{
+    list-style-type: none;
+    text-decoration: none;
 }
-.stories-title{
-    font-weight: bold;
-    font-size: 2.9rem;
-    text-align: center;
+
+footer{
+    background-color: #01ACFD;
+    width: 1439px;
+    height: 519px;
 }
-.stories-card{
+.footer{
     display: flex;
+    justify-content: space-between;
+    width: 1380px;
+    height: 519px;
+}
+.left-div{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+.kids-edu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kids-title{
+    font-weight: bold;
+    font-size: 2.3rem;
+    color: white;
+    margin: 50px;
+}
+.kids-edu-text{
+    width: 400px;
+    height: 100px;
+    color: white;
+    font-size: 1.1rem;
+}
+.about-school{
+    margin-top: 50px;
+}
+.scl-title{
+    width: 156px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+}
+.scl-list{
+    display: flex;
+    flex-direction: column;
     gap: 2rem;
 }
-.story-1-card{
-    width: 540px;
-    height: 630px;
-    border: 1px solid none;
-    border-radius: 16px;
-    background-color: white;
-}
-.story-1-pic{
-    width: 540px;
-    height: 337px;
-}
-.story-text{
-    font-size: 15.34px;
+.scl-list > li > a{
     font-weight: medium;
-    width: 433px;
-    height: 45px;
-}
-.story-1-btn1{
-    width: 174px;
-    height: 47px;
-    background-color: #3CD8E8;
-    border: 1px solid #3CD8E8;
-    border-radius: 47.9px;
+    font-size: 1.1rem;
     color: white;
-    font-weight: medium;
-    font-size: 1rem;
-    margin-top: -50px;
-    margin-left: 50px;
 }
-.rest-stories{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 24px;
+.keep-touch{
+
 }
-.story-2-card{
-    width: 290px;
-    height: 301px;
-    background-color: white;
-    border: 1px solid white;
-    border-radius: 16px;
-}
-.story-2-pic{
-    width: 291px;
-    height: 177px;
-}
-.story-2-btn2{
-  background-color: #95B226;
-  width: 174px;
-    height: 47px;
-    border: 1px solid #95B226;
-    border-radius: 47.9px;
-    color: white;
-    font-weight: medium;
-    font-size: 1rem;
-    margin-top: -50px;
-    margin-left: 50px;
-}
-.story2-title{
-    text-align: center;
-    width: 214px;
-    height: 57px;
+.keep-touch-title{
+    width: 177px;
+    height: 27px;
     font-weight: bold;
-    font-size: 15.74px;
-    margin: auto;
-    margin-top: 20px;
+    font-size: 1.2rem;
+    margin: 50px;
 }
-.story-2-btn3{
-    background-color: #5D58F0;
-  width: 174px;
-    height: 47px;
-    border: 1px solid #5D58F0;
-    border-radius: 47.9px;
+.social-icons {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px;
+    width: 177px;
+    height: 40px; 
+ }
+
+.social-icons div {
+    display: flex; 
+}
+.facebook{
+    background-color: #3B5998;
     color: white;
-    font-weight: medium;
-    font-size: 1rem;
-    margin-top: -50px;
-    margin-left: 50px;
 }
-.story-2-btn4{
-    background-color: #95B226;
-    width: 174px;
-      height: 47px;
-      border: 1px solid #95B226;
-      border-radius: 47.9px;
-      color: white;
-      font-weight: medium;
-      font-size: 1rem;
-      margin-top: -50px;
-      margin-left: 50px;
+.basketball{
+    background-color: #EA4C89;
+    color: white;
 }
-.story-2-btn5{
-    background-color: #95B226;
-    width: 174px;
-      height: 47px;
-      border: 1px solid #95B226;
-      border-radius: 47.9px;
-      color: white;
-      font-weight: medium;
-      font-size: 1rem;
-      margin-top: -50px;
-      margin-left: 50px;
+.twitter{
+  background-color: #1DA1F2;
+  color: white;
+}
+.google{
+    background-color: #DD4B39;
+    color: white;
 }

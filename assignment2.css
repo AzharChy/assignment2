@@ -373,42 +373,100 @@ margin-left: 20px;
 }
 /* stories ends */
 /* footer starts */
+*{
+    list-style-type: none;
+    text-decoration: none;
+}
+
 footer{
     background-color: #01ACFD;
-    display: flex;
-    justify-content: space-evenly;
-    gap: 300px;
     width: 1439px;
     height: 519px;
-    padding: 3rem;
 }
-.kids-education{
-    width: 1079px;
-    height: 222px;
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 1380px;
+    height: 519px;
+}
+.left-div{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+.kids-edu{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.education-flex{
-    display: flex;
-    justify-content: space-between;
-
+.kids-title{
+    font-weight: bold;
+    font-size: 2.3rem;
+    color: white;
+    margin: 50px;
+}
+.kids-edu-text{
+    width: 400px;
+    height: 100px;
+    color: white;
+    font-size: 1.1rem;
 }
 .about-school{
-
+    margin-top: 50px;
 }
-.about-scl-title{
-
+.scl-title{
+    width: 156px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
 }
-.about-scl-flex{
+.scl-list{
     display: flex;
     flex-direction: column;
+    gap: 2rem;
+}
+.scl-list > li > a{
+    font-weight: medium;
+    font-size: 1.1rem;
+    color: white;
 }
 .keep-touch{
 
 }
-.social-icons{
-    display: flex;
+.keep-touch-title{
+    width: 177px;
+    height: 27px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 50px;
 }
+.social-icons {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px;
+    width: 177px;
+    height: 40px; 
+ }
 
+.social-icons div {
+    display: flex; 
+}
+.facebook{
+    background-color: #3B5998;
+    color: white;
+}
+.basketball{
+    background-color: #EA4C89;
+    color: white;
+}
+.twitter{
+  background-color: #1DA1F2;
+  color: white;
+}
+.google{
+    background-color: #DD4B39;
+    color: white;
+}
 /* footer ends */
