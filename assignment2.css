@@ -81,7 +81,7 @@ li{
     width: 1158px;
     height: 575px;
     justify-content: space-between;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-right: 20px;
   }
   .banner-body{
@@ -121,7 +121,7 @@ li{
 /* banner ends */
 /* standard curriculum starts */
 .standard-curriculum{
-    background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3), white), 
     url('bg.png');
 background-size: cover;
 background-repeat: no-repeat;    
@@ -470,3 +470,155 @@ footer{
     color: white;
 }
 /* footer ends */
+
+
+/* reponsive design stats here */
+
+@media (max-width: 576px) {
+    
+    nav {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 1rem;
+        margin: 0;
+    }
+    .name {
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        height: auto;
+    }
+    .school {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: auto;
+    }
+    li {
+        padding: 0.5rem;
+    }
+    .nav-btn {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .banner {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+    .banner-body {
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .banner-heading {
+        font-size: 2rem;
+        width: auto;
+        height: auto;
+    }
+    .banner-text {
+        font-size: 1rem;
+        width: auto;
+        height: auto;
+    }
+    .kid {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+    }
+
+    .standard-curriculum {
+        margin: 0;
+        padding: 1rem;
+    }
+    .card {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+    .card-header {
+        font-size: 2rem;
+    }
+    card {
+        width: 100%;
+        height: auto;
+    }
+    .card-pic {
+        width: 100px;
+        height: 100px;
+    }
+    .card-text {
+        font-size: 0.9rem;
+    }
+
+    .our-stories {
+        width: 100%;
+        margin: 0;
+        padding: 1rem;
+    }
+    .stories-title {
+        font-size: 2rem;
+    }
+    .stories-card {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .story-1-card, .story-2-card {
+        width: 100%;
+        height: auto;
+    }
+    .story-1-pic, .story-2-pic {
+        width: 100%;
+        height: auto;
+    }
+    .last-btn {
+        margin-top: 2rem;
+    }
+    .story-btn {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+        width: 100%;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .left-div, .keep-touch {
+        margin: 1rem;
+        width: 100%;
+    }
+    .kids-title {
+        font-size: 1.5rem;
+    }
+    .kids-edu-text, .scl-list > li > a {
+        font-size: 1rem;
+    }
+    .social-icons {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .social-icons div {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.8rem;
+    }
+}
